@@ -11,7 +11,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { SeedingModule } from './seeding/seeding.module';
 import { PaymentsModule } from './payments/payments.module';
 import { ContactModule } from './contact/contact.module';
-import { getDatabaseConfig } from 'src/database/config/database.config';
+import { getDatabaseConfig } from './database/config/database.config';
 
 @Module({
   imports: [
